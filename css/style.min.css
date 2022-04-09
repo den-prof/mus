@@ -1189,6 +1189,23 @@ footer {
   }
 }
 @media (max-width: 480px) {
+  .Bright-line__column2 {
+    max-width: 400px;
+    padding-left: 15px;
+  }
+
+  .girl1 {
+    max-width: 250px;
+    width: 100%;
+  }
+
+  .girl2 {
+    max-width: 250px;
+    width: 100%;
+    top: 100px;
+    left: 100px;
+  }
+
   .Lights__img {
     bottom: -500px;
   }
@@ -1199,6 +1216,26 @@ footer {
 
   .track {
     padding-top: 150px;
+  }
+}
+@media (max-width: 420px) {
+  .Bright-line__column2 {
+    max-width: 350px;
+  }
+
+  .grid {
+    max-width: 400px;
+    grid-template-columns: repeat(2, 150px);
+    grid-template-rows: 110px 180px 130px;
+    grid-gap: 10px;
+  }
+
+  .galery-img {
+    max-width: 130px;
+  }
+
+  .galery-img:nth-child(5) {
+    max-width: 260px;
   }
 }
 @media (max-width: 400px) {
